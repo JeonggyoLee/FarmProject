@@ -1,7 +1,7 @@
 # main.py
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_chroma import Chroma
-from langchain_pinecone import Pinecone
+# from langchain_pinecone import Pinecone
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.cache import SQLiteCache
